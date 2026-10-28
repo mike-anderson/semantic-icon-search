@@ -1,0 +1,201 @@
+# name	fair icons (space-separated; empty = no fair icon)
+scratchpad	notebook-pen notepad-text sticky-note pencil file-pen
+ledger	book-open notebook banknote receipt wallet calculator
+pantry	refrigerator shopping-basket carrot groceries package
+inkwell	feather pen pen-tool pen-line pencil
+strongbox	vault lock shield-lock key-round
+herbarium	leaf flower sprout flower-2 shrub
+lullaby	baby moon moon-star eighth-notes bed
+transcriber	mic audio-lines file-text captions speech audio-waveform
+birdwatch	bird binoculars feather telescope
+glucose	droplet syringe heart-pulse activity chart-line
+payroll	banknote wallet circle-dollar-sign hand-coins receipt
+crossword	grid-3x3 puzzle letters type
+watchtower	eye cctv radar binoculars tower-control
+halcyon	
+marlow	
+kairo	
+carpool	car car-front users route
+lexicon	book-a languages book-type whole-word spell-check
+mixtape	cassette-tape list-music disc headphones boom-box
+quarantine	biohazard shield-alert virus shield-x ban
+shredder	shredder trash file-x scissors
+stargazer	telescope moon-star star sparkles orbit galaxy
+uptime	activity heart-pulse gauge circle-check server
+outbox	send mail inbox mailbox send-horizontal
+pomodoro	timer alarm-clock hourglass clock
+journal	notebook-pen book-open notebook notebook-text book-heart
+kennel	dog paw-print house bone
+sketchbook	palette paintbrush pencil brush pen-tool notebook-pen
+roster	users clipboard-list list contact user-group
+genealogy	users network tree-deciduous list-tree git-fork
+treasury	landmark coins piggy-bank vault banknote
+cobblestone	stone road brick-wall
+wayfinder	compass map map-pin navigation signpost route
+babel	languages speech globe message-square-text
+seedbank	sprout wheat leaf archive bean
+thermostat	thermometer heater fan thermometer-snowflake gauge
+sandbox	box flask-conical test-tube terminal shovel
+deadman	timer alarm-clock siren skull triangle-alert
+ciphertext	lock key file-lock binary shield-lock
+storyteller	book-open scroll feather book-audio book-text
+playlist	list-music disc-3 headphones eighth-notes list-video
+attic	archive house boxes package folder-archive
+lantern	lamp flashlight lightbulb flame
+tallyho	
+pulsecheck	heart-pulse activity stethoscope square-activity
+brewlog	beer coffee notebook-pen bottle-wine
+quillon	
+foundry	factory anvil hammer flame
+waystation	signpost map-pin signpost-big
+silo	database archive warehouse cylinder
+bonfire	flame flame-kindling tent
+switchboard	phone-forwarded network toggle-right workflow route router
+signet	stamp signature badge-check certificate
+cartographer	map compass map-pin drafting-compass earth
+bexley	
+ottoline	
+renwick	
+pippin	
+gossamer	
+argyle	
+family-calendar	calendar calendar-days calendar-heart users house-heart
+ci-runner	play workflow git-branch server rocket circle-play
+meal-planner	utensils chef-hat calendar salad cooking-pot
+grocery-list	shopping-cart shopping-basket groceries list-checks list-todo carrot
+homework-helper	graduation-cap book-open school pencil notebook-pen lightbulb
+chore-chart	list-checks chart-column clipboard-check broom star square-check-big
+baby-tracker	baby milk chart-line clock heart
+sleep-log	moon bed moon-star notebook-pen alarm-clock
+blood-pressure	heart-pulse activity stethoscope gauge heart
+med-reminder	pill alarm-clock bell pill-bottle tablets clock
+dns-filter	shield-ban funnel globe network shield
+ssh-bastion	terminal server shield-lock key lock square-terminal
+log-shipper	logs scroll-text send truck file-text
+cert-renewer	certificate shield-check lock refresh-cw rotate-cw badge-check
+backup-vault	database-backup archive cloud-backup hard-drive vault save
+git-mirror	git-fork git-branch folder-git copy refresh-cw
+code-review	git-pull-request git-compare code search-code eye message-square-code
+release-notes	file-text scroll-text notebook-text rocket tag megaphone
+feature-flags	flag toggle-right toggle-left
+error-tracker	bug triangle-alert circle-alert activity search-alert
+queue-dashboard	layout-dashboard list-ordered gauge chart-bar rows-3
+cron-jobs	calendar-clock clock timer list-clock alarm-clock
+secret-store	key-round lock vault shield-lock key
+image-resizer	image scaling crop image-upscale proportions
+pdf-merge	files file-stack merge combine file-text
+link-shortener	link link-2 scissors unlink
+bookmark-sync	bookmark folder-bookmark refresh-cw cloud-sync book-bookmark
+read-later	bookmark book-open newspaper clock book-bookmark glasses
+podcast-feed	mic rss headphones radio audio-lines
+photo-archive	images image archive camera folder-archive
+video-transcoder	film video clapperboard refresh-cw file-video-camera
+music-server	headphones list-music disc-3 server radio boom-box
+home-inventory	package boxes house clipboard-list archive warehouse
+plant-waterer	droplet plant-pot sprout flower droplets
+garden-journal	sprout leaf notebook-pen flower shovel
+weather-station	cloud-sun thermometer wind cloud-rain gauge
+energy-monitor	zap gauge plug-zap activity solar-panel battery
+door-camera	cctv camera webcam door-closed video
+car-maintenance	car wrench car-front fuel calendar-check
+budget-tracker	wallet chart-pie piggy-bank calculator circle-dollar-sign banknote
+expense-splitter	receipt split users calculator banknote hand-coins
+invoice-generator	receipt file-text receipt-text banknote file-plus
+tax-prep	calculator receipt file-spreadsheet landmark percent
+stock-watcher	chart-candlestick trending-up chart-line eye
+crypto-wallet	wallet bitcoin coins key-round
+habit-streak	flame calendar-check list-checks trophy square-check-big
+workout-log	dumbbell biceps-flexed activity notebook-pen
+running-coach	footprints sport-shoe timer activity route
+period-tracker	calendar-heart droplet calendar venus heart
+symptom-journal	stethoscope notebook-pen thermometer heart-pulse clipboard-pen
+vet-records	paw-print dog cat stethoscope clipboard
+password-reset	key-round rotate-ccw-key lock-keyhole-open refresh-ccw key
+two-factor	shield-check smartphone key-round fingerprint-pattern lock
+phishing-sim	mail-warning fishing-hook shield-alert triangle-alert
+vuln-scanner	scan-search shield-alert bug radar search
+group-chat	messages-square message-circle users messages-circle
+voice-memos	mic voicemail audio-lines mic-vocal
+team-wiki	book-open library notebook-text file-text users
+api-docs	book-open code braces file-code
+style-guide	palette swatch-book book-open type paintbrush
+meeting-notes	notebook-pen notepad-text users presentation clipboard-pen
+standup-bot	bot bot-message-square users message-square clock
+email-digest	mail mails newspaper inbox
+room-booking	calendar-check door-open calendar-plus building
+shift-planner	calendar-range calendar-clock users clock
+trail-maps	map mountain route footprints compass hiking-stick
+campsite-finder	tent map-pin search trees tent-tree
+recipe-scaler	chef-hat scale scaling calculator utensils
+board-games	dices puzzle chess-knight gamepad-2 playing-cards
+trivia-night	circle-question-mark trophy lightbulb party-popper
+chess-club	chess-knight chess-king chess-pawn users trophy
+minecraft-server	pickaxe gamepad-2 server blocks box
+dungeon-crawler	swords skull castle gamepad-2 sword
+novel-draft	book-open feather pen-line notebook-pen file-pen
+screenplay-editor	clapperboard film file-pen pen-line
+prompt-library	library book-open sparkles bot message-square-text
+agent-sandbox	bot box terminal flask-conical shield
+embedding-search	search brain-circuit database-search sparkles
+voice-assistant	bot mic audio-lines speech
+llm-router	route bot brain-circuit network split waypoints
+photo-tagger	tags tag image scan-face images
+lost-pets	paw-print dog cat search map-pin
+otter-notes	notebook-pen notepad-text sticky-note
+project-tango	
+zeta-nine	
+plum-street	
+wexford	
+soren	
+jellyfin	film tv clapperboard play monitor-play
+vaultwarden	vault key-round lock shield-lock
+paperless	files file-text scan-text file-scan archive
+immich	images image camera gallery-thumbnails
+gitea	git-branch git-fork folder-git code
+grafana	chart-line chart-area layout-dashboard gauge activity
+uptime-kuma	activity heart-pulse gauge circle-check
+home-assistant	house house-wifi house-cog lightbulb
+miniflux	rss newspaper
+mealie	chef-hat utensils cooking-pot book-open
+syncthing	refresh-cw folder-sync cloud-sync arrow-left-right
+pihole	shield-ban funnel ban shield
+audiobookshelf	book-audio book-headphones headphones library
+navidrome	list-music headphones disc-3 radio
+authentik	shield-user key-round lock fingerprint-pattern user-lock
+ollama	bot brain cpu-ai sparkles
+excalidraw	pen-tool pencil shapes pencil-ruler
+stirling-pdf	file-text files file-cog
+searxng	search globe
+ntfy	bell bell-ring send
+woodpecker-ci	bird workflow play git-branch
+frigate	cctv camera video eye scan-eye
+family-photo-album	images image camera book-image users
+kids-screen-time	tv monitor timer hourglass smartphone baby
+github-actions-cache	database archive hard-drive zap workflow
+google-drive-backup	cloud-backup hard-drive-download database-backup cloud-download
+daily-standup-notes	notebook-pen clipboard-pen users notepad-text
+pdf-to-text	file-text scan-text file-scan text-search
+home-network-map	network router wifi map house-wifi
+youtube-download-queue	download list-video film video hard-drive-download
+open-source-tracker	git-fork star git-branch list-checks
+night-shift-log	moon notebook-pen clock clipboard-pen
+book-club-picks	book-open library users book-heart
+air-quality-sensor	wind gauge air-vent activity thermometer
+car-share-calendar	car calendar users calendar-days
+ai-code-reviewer	bot git-pull-request code search-code
+dad-joke-bot	bot face-grinning message-circle
+grandma-video-call	video phone-call webcam users
+lego-set-inventory	toy-brick blocks boxes package clipboard-list
+spare-parts-bin	boxes package wrench archive screw nut
+sourdough-starter-log	wheat croissant timer notebook-pen
+neighborhood-watch-alerts	siren bell-ring eye cctv megaphone shield-alert
+wedding-guest-list	users party-popper heart list-checks mail gem
+tooth-fairy-ledger	coins sparkles wand-sparkles notebook
+dark-mode-tester	moon sun-moon contrast eye
+old-laptop-wipe	laptop trash eraser hard-drive
+cold-start-probe	snowflake timer activity thermometer-snowflake
+mike-test-app	
+staging-proxy-two	
+legacy-api-shim	code braces plug-2 cable
+podcast-show-notes	mic notebook-pen file-text audio-lines
+recipe-box-import	chef-hat import download archive

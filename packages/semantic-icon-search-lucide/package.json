@@ -1,0 +1,18 @@
+{
+  "name": "semantic-icon-search-lucide",
+  "version": "0.1.0",
+  "description": "Suggest Lucide icons for a name by meaning, in the browser, with no model at runtime",
+  "type": "module",
+  "exports": {
+    ".": { "types": "./index.d.ts", "default": "./index.js" },
+    "./index.json": "./data/index.json"
+  },
+  "files": ["index.js", "index.d.ts", "data"],
+  "sideEffects": false,
+  "scripts": { "test": "node --test" },
+  "dependencies": { "semantic-icon-search": "^0.1.0" },
+  "peerDependencies": { "lucide-static": "1.63.0" },
+  "peerDependenciesMeta": { "lucide-static": { "optional": true } },
+  "keywords": ["lucide", "icons", "semantic search", "icon search", "icon suggestion", "embeddings", "offline"],
+  "license": "MIT"
+}

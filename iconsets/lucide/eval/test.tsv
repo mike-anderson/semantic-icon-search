@@ -1,0 +1,201 @@
+# name	fair icons (space-separated; empty = no fair icon)
+diary	notebook-pen book-heart book-lock notebook-text
+quillpad	feather pen notebook-pen notepad-text
+cellar	wine barrel warehouse archive
+cookbook	chef-hat book-open utensils cooking-pot
+sprinkler	droplets droplet sprout waves-horizontal
+bookkeeper	book-open calculator receipt notebook banknote
+mortgage	house landmark banknote calculator percent
+cashflow	banknote trending-up chart-line arrow-left-right coins
+receipts	receipt receipt-text file-text scan-text
+pharmacy	pill pill-bottle tablets cross briefcase-medical
+vitals	heart-pulse activity thermometer stethoscope
+dentist	toothbrush calendar-clock stethoscope
+nutrition	apple salad carrot utensils leafy-green chart-pie
+meditation	flower leaf brain sparkles wind
+firewall	brick-wall-fire brick-wall-shield shield flame
+honeypot	bug shield-alert radar skull
+passkeys	fingerprint-pattern key-round shield-check key
+auditor	clipboard-check search-check file-search list-checks
+canary	bird siren bell-ring triangle-alert
+announcer	megaphone bell-ring speech radio
+mailroom	mailbox mail inbox mails package
+newsletter	newspaper mail mails send
+helpdesk	headset life-buoy circle-question-mark ticket message-circle-question-mark
+triage	list-ordered siren funnel list-filter clipboard-list
+changelog	scroll-text file-diff list git-commit-horizontal notebook-text
+docsite	book-open file-text library globe
+agenda	calendar list-todo calendar-days list-checks
+timesheet	clock table sheet timer calendar-clock
+reminders	bell alarm-clock list-todo calendar-check bell-ring
+statuspage	activity circle-check gauge signal layout-dashboard
+profiler	gauge cpu chart-bar timer activity
+buildbot	bot hammer wrench workflow
+linter	spell-check check-check bug list-checks braces
+formatter	text-align-justify remove-formatting braces wand-sparkles code
+registry	package boxes container archive database
+dotfiles	file-cog settings terminal folder-cog
+snippets	code scissors clipboard braces file-code
+copilot	bot sparkles plane brain-circuit
+assistant	bot sparkles message-circle bot-message-square
+summarizer	sparkles file-text text-quote list-collapse scroll-text
+translator	languages globe speech message-square-text
+arcade	gamepad-2 joystick gamepad trophy
+solitaire	playing-cards playing-card spade club
+speedrun	timer gamepad-2 zap trophy rocket
+leaderboard	trophy medal podium chart-bar award
+lorebook	book-open scroll castle feather
+manuscript	scroll file-text feather book-text
+vinyl	disc disc-3 disc-album turntable list-music
+karaoke	mic-vocal mic list-music speaker
+cinema	film clapperboard popcorn projector tv
+pemberton	
+ozymandias	
+kinsale	
+brixton	
+calloway	
+dunmore	
+fennimore	
+tamsin	
+corvallis	
+quimby	
+school-pickup	car school backpack bus calendar-clock
+pocket-money	piggy-bank coins wallet hand-coins
+bedtime-stories	book-open moon moon-star bed baby
+family-recipes	chef-hat book-heart utensils cooking-pot
+birthday-reminders	cake gift party-popper bell calendar-heart
+gift-ideas	gift lightbulb list-todo heart
+holiday-planner	plane calendar tree-palm luggage map
+packing-list	luggage backpack list-checks list-todo
+vacation-photos	images camera tree-palm image
+pet-feeder	paw-print bone cat dog alarm-clock
+dog-walks	dog footprints paw-print route
+compost-log	recycle sprout leaf notebook-pen trash
+solar-dashboard	solar-panel sun zap battery-charging gauge layout-dashboard
+power-outage	zap-off power-off plug triangle-alert
+water-meter	droplet gauge waves-horizontal
+smoke-alarm	alarm-smoke siren flame bell-ring
+printer-queue	printer printer-3d list-ordered file
+nas-health	server-nas hard-drive server heart-pulse activity
+disk-usage	hard-drive chart-pie database gauge
+wifi-guest	wifi qr-code wifi-lock key-round
+vpn-gateway	shield-lock globe-lock network earth-lock lock
+port-scanner	radar scan-search network shield-alert
+container-logs	logs container scroll-text terminal
+k8s-dashboard	layout-dashboard ship-wheel boxes container server
+db-migrations	database database-arrow-up arrow-right-left git-merge
+schema-diff	diff git-compare database file-diff
+query-console	database terminal square-terminal search-code
+test-reports	test-tube clipboard-check file-check list-checks chart-bar
+flaky-tests	test-tube triangle-alert bug flask-conical
+deploy-preview	rocket eye monitor-play app-window
+pr-bot	bot git-pull-request git-merge
+issue-triage	list-filter funnel bug circle-alert clipboard-list
+commit-graph	git-graph git-commit-horizontal git-branch chart-network
+dependency-bot	bot package refresh-cw git-pull-request
+license-check	scale copyright file-check badge-check
+sbom-viewer	list-tree package boxes file-search
+webhook-relay	webhook send arrow-right-left route
+rate-limiter	gauge timer ban funnel
+ping-monitor	activity radar signal wifi heart-pulse
+oncall-rotation	siren phone users calendar-sync rotate-cw
+incident-log	siren triangle-alert notebook-pen scroll-text clipboard-pen
+postmortem-notes	notebook-pen file-text skull clipboard-pen
+customer-support	headset life-buoy message-circle users
+sales-pipeline	funnel chart-bar trending-up kanban handshake
+lead-capture	magnet user-plus funnel mail
+invoice-chaser	receipt mail-warning bell banknote send
+quote-builder	file-pen receipt calculator file-text
+contract-vault	file-lock signature vault file-text scroll
+time-off	calendar-x tree-palm plane calendar-range
+hiring-board	users user-plus kanban briefcase clipboard-list
+onboarding-checklist	list-checks clipboard-check user-plus square-check-big
+okr-tracker	target goal chart-bar trending-up
+sprint-board	kanban square-kanban list-todo layout-dashboard
+whiteboard-sync	presentation pen-tool layout-freeform shapes refresh-cw
+mind-map	brain network git-fork workflow lightbulb
+flash-cards	layers book-open brain graduation-cap
+language-tutor	languages graduation-cap speech book-a
+spelling-bee	spell-check letters a-large-small trophy
+science-fair	flask-conical microscope atom beaker test-tube
+piano-practice	piano keyboard-music metronome eighth-notes timer
+guitar-tabs	guitar guitar-electric eighth-notes file-music
+band-setlist	list-music guitar mic-vocal drum list-ordered
+sheet-music	file-music eighth-notes clef-treble piano
+photo-booth	camera aperture image scan-face
+meme-generator	image face-grinning sparkles image-plus
+font-preview	type a-large-small baseline case-sensitive
+color-picker	pipette palette swatch-book paint-bucket
+icon-browser	shapes search layout-grid image sparkles
+markdown-preview	file-text eye heading hash book-open
+diff-viewer	diff git-compare file-diff columns-2
+json-formatter	braces file-braces code
+regex-tester	regex search-code text-search test-tube
+qr-generator	qr-code scan-qr-code scan
+barcode-scanner	barcode scan-barcode scan-line
+gift-registry	gift list-checks heart party-popper
+potluck-signup	cooking-pot utensils users list-checks soup
+lending-library	library book-open book-copy users hand-helping
+tool-library	wrench hammer toolbox tool-case drill
+bike-maintenance	bike wrench calendar-check cog
+ski-conditions	mountain-snow snowflake thermometer-snowflake cloud-snow
+tide-tables	waves-horizontal moon waves-arrow-up sailboat
+fishing-log	fish fishing-rod fishing-hook notebook-pen
+lima-bravo	
+otis-two	
+haverford-app	
+kip-and-co	
+delta-seven	
+nyx-west	
+nextcloud	cloud folder cloud-upload files
+plex	play film tv monitor-play clapperboard
+sonarr	tv download film
+radarr	film clapperboard download radar
+wireguard	shield-lock network globe-lock lock
+tailscale	network waypoints globe-lock shield-lock
+open-webui	bot message-square sparkles bot-message-square
+freshrss	rss newspaper
+wallabag	bookmark book-open newspaper book-bookmark
+grocy	shopping-cart refrigerator groceries shopping-basket carrot
+bookstack	library book-open book-copy notebook-text
+vikunja	list-todo list-checks kanban square-check-big
+gotify	bell bell-ring send
+healthchecks	heart-pulse activity circle-check calendar-clock
+umami	chart-line chart-column trending-up activity
+minio	database cylinder archive cloud hard-drive package
+portainer	container ship boxes ship-wheel
+forgejo	git-branch git-fork folder-git code
+joplin	notebook-pen notebook-text file-text
+firefly-iii	wallet banknote chart-pie piggy-bank coins
+mastodon	message-circle rss megaphone users
+actual-budget	wallet calculator piggy-bank chart-pie
+changedetection	eye diff bell-ring scan-eye
+kids-chore-points	star trophy list-checks coins baby
+family-movie-night	film popcorn clapperboard tv
+github-issue-sync	refresh-cw circle-dot git-merge
+google-calendar-bridge	calendar calendar-sync arrow-left-right
+home-lab-inventory	server boxes clipboard-list hard-drive
+static-site-builder	hammer globe file-code layout-template rocket
+pdf-form-filler	file-pen form clipboard-pen pen-line
+email-to-task	mail list-todo mail-check arrow-right
+slack-alert-router	bell-ring route siren send
+llm-eval-harness	bot test-tube chart-bar clipboard-check flask-conical gauge
+agent-memory-store	brain database bot archive
+voice-note-transcriber	mic audio-lines file-text captions speech
+receipt-ocr-scanner	scan-text receipt scan file-scan
+weekly-meal-prep	utensils chef-hat calendar-days salad cooking-pot
+kid-sleep-schedule	moon bed baby alarm-clock calendar-clock
+backyard-weather-log	cloud-sun thermometer wind notebook-pen
+apartment-hunt-tracker	house search map-pin building key
+used-car-search	car search car-front tag
+jazz-record-collection	disc disc-album list-music eighth-notes library
+dnd-campaign	swords dices castle scroll shield
+pixel-art-studio	palette grid-3x3 paintbrush brush
+meteor-shower-alerts	sparkles star moon-star telescope bell
+old-family-letters	mail mails scroll archive feather
+retirement-savings-calc	piggy-bank calculator trending-up landmark coins
+blood-sugar-chart	droplet chart-line activity syringe
+insurance-docs-folder	folder-lock shield file-text folder umbrella
+snowplow-route-planner	snowflake route truck map
+otis-legacy-port	
+mrs-k-portal	

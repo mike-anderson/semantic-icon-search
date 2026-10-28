@@ -1,0 +1,17 @@
+{
+  "name": "semantic-icon-search-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces",
+    "build:lucide": "cd builder && uv run sis-build build lucide",
+    "eval:lucide": "cd builder && uv run sis-build eval lucide --split dev",
+    "visuals": "node docs/visuals/render.mjs"
+  },
+  "devDependencies": {
+    "lucide-static": "1.63.0"
+  }
+}

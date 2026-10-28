@@ -1,0 +1,16 @@
+[project]
+name = "semantic-icon-search-build"
+version = "0.1.0"
+description = "Offline builder for semantic-icon-search word-piece indexes"
+requires-python = ">=3.11"
+dependencies = ["model2vec>=0.4", "numpy>=1.26"]
+
+[project.scripts]
+sis-build = "semantic_icon_search_build.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["semantic_icon_search_build"]

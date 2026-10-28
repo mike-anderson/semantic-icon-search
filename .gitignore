@@ -1,0 +1,4 @@
+node_modules/
+builder/.cache/
+builder/.venv/
+__pycache__/

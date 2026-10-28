@@ -1,0 +1,619 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="766" viewBox="0 0 880 766">
+<defs><symbol id="hand-helping" viewBox="0 0 24 24">
+      <path d="M11 12h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 14" />
+      <path d="m7 18 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+      <path d="m2 13 6 6" />
+    </symbol><symbol id="life-buoy" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" />
+      <path d="m4.93 4.93 4.24 4.24" />
+      <path d="m14.83 9.17 4.24-4.24" />
+      <path d="m14.83 14.83 4.24 4.24" />
+      <path d="m9.17 14.83-4.24 4.24" />
+      <circle cx="12" cy="12" r="4" />
+    </symbol><symbol id="badge-question-mark" viewBox="0 0 24 24">
+      <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+      <line x1="12" x2="12.01" y1="17" y2="17" />
+    </symbol><symbol id="badge-info" viewBox="0 0 24 24">
+      <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+      <line x1="12" x2="12" y1="16" y2="12" />
+      <line x1="12" x2="12.01" y1="8" y2="8" />
+    </symbol><symbol id="circle-question-mark" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" />
+      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+      <path d="M12 17h.01" />
+    </symbol><symbol id="file-question-mark" viewBox="0 0 24 24">
+      <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+      <path d="M12 17h.01" />
+      <path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3" />
+    </symbol><symbol id="heart-handshake" viewBox="0 0 24 24">
+      <path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762" />
+    </symbol><symbol id="notebook-pen" viewBox="0 0 24 24">
+      <path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4" />
+      <path d="M2 6h4" />
+      <path d="M2 10h4" />
+      <path d="M2 14h4" />
+      <path d="M2 18h4" />
+      <path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
+    </symbol><symbol id="plant-pot" viewBox="0 0 24 24">
+      <path d="M14 8.536V6a4 4 0 014-4h1.5a.5.5 0 01.5.5V4a4 4 0 01-4 4 4 4 0 00-4 4 5 5 0 01-8-4 5 5 0 018 4c0 2 1 3 1 5" />
+      <path d="m18 17-1.085 3.58A2 2 0 0115 22H9.002a2 2 0 01-1.913-1.418L6 17" />
+      <path d="M5 17h14" />
+    </symbol><symbol id="sprout" viewBox="0 0 24 24">
+      <path d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3" />
+      <path d="M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4" />
+      <path d="M5 21h14" />
+    </symbol><symbol id="flower" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="3" />
+      <path d="M12 16.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 1 1 4.5 4.5 4.5 4.5 0 1 1-4.5 4.5" />
+      <path d="M12 7.5V9" />
+      <path d="M7.5 12H9" />
+      <path d="M16.5 12H15" />
+      <path d="M12 16.5V15" />
+      <path d="m8 8 1.88 1.88" />
+      <path d="M14.12 9.88 16 8" />
+      <path d="m8 16 1.88-1.88" />
+      <path d="M14.12 14.12 16 16" />
+    </symbol><symbol id="flower-2" viewBox="0 0 24 24">
+      <path d="M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1" />
+      <circle cx="12" cy="8" r="2" />
+      <path d="M12 10v12" />
+      <path d="M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5Z" />
+      <path d="M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z" />
+    </symbol><symbol id="leaf" viewBox="0 0 24 24">
+      <path d="M11 20a10 10 0 0010-10 25.9 25.9 0 00-1.04-7.281 1 1 0 00-1.755-.325C15.833 5.5 13 5.5 9.8 6.1A7 7 0 0011 20" />
+      <path d="M2 21a5 5 0 012.911-4.544C7.613 15.212 8.351 15.24 11 13" />
+    </symbol><symbol id="rose" viewBox="0 0 24 24">
+      <path d="M17 10h-1a4 4 0 1 1 4-4v.534" />
+      <path d="M17 6h1a4 4 0 0 1 1.42 7.74l-2.29.87a6 6 0 0 1-5.339-10.68l2.069-1.31" />
+      <path d="M4.5 17c2.8-.5 4.4 0 5.5.8s1.8 2.2 2.3 3.7c-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2" />
+      <path d="M9.77 12C4 15 2 22 2 22" />
+      <circle cx="17" cy="8" r="2" />
+    </symbol><symbol id="split" viewBox="0 0 24 24">
+      <path d="M16 3h5v5" />
+      <path d="M8 3H3v5" />
+      <path d="M12 22v-8.3a4 4 0 0 0-1.172-2.872L3 3" />
+      <path d="m15 9 6-6" />
+    </symbol><symbol id="banknote-arrow-down" viewBox="0 0 24 24">
+      <path d="M12 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5" />
+      <path d="m16 19 3 3 3-3" />
+      <path d="M18 12h.01" />
+      <path d="M19 16v6" />
+      <path d="M6 12h.01" />
+      <circle cx="12" cy="12" r="2" />
+    </symbol><symbol id="circle-divide" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" />
+      <line x1="8" x2="16" y1="12" y2="12" />
+      <line x1="12" x2="12" y1="16" y2="16" />
+      <line x1="12" x2="12" y1="8" y2="8" />
+    </symbol><symbol id="receipt" viewBox="0 0 24 24">
+      <path d="M12 17V7" />
+      <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" />
+      <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" />
+    </symbol><symbol id="columns-2" viewBox="0 0 24 24">
+      <rect width="18" height="18" x="3" y="3" rx="2" />
+      <path d="M12 3v18" />
+    </symbol><symbol id="rows-2" viewBox="0 0 24 24">
+      <rect width="18" height="18" x="3" y="3" rx="2" />
+      <path d="M3 12h18" />
+    </symbol><symbol id="square-split-horizontal" viewBox="0 0 24 24">
+      <path d="M12 2v20" />
+      <path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3" />
+      <path d="M8 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3" />
+    </symbol><symbol id="mic-signal" viewBox="0 0 24 24">
+      <path d="M12 17v4" />
+      <path d="M18 11a6 6 0 00-3-5.197" />
+      <path d="M2 11a10 10 0 015-8.662" />
+      <path d="M22 11a10 10 0 00-5-8.662" />
+      <path d="M6 11a6 6 0 013-5.197" />
+      <path d="M9 21h6" />
+      <rect x="10" y="9" width="4" height="8" rx="2" />
+    </symbol><symbol id="mic-vocal" viewBox="0 0 24 24">
+      <path d="m11 7.601-5.994 8.19a1 1 0 0 0 .1 1.298l.817.818a1 1 0 0 0 1.314.087L15.09 12" />
+      <path d="M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2-2.072-.356-2.775-3.369-1.5-4.5" />
+      <circle cx="16" cy="7" r="5" />
+    </symbol><symbol id="mic" viewBox="0 0 24 24">
+      <path d="M12 19v3" />
+      <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+      <rect x="9" y="2" width="6" height="13" rx="3" />
+    </symbol><symbol id="audio-lines" viewBox="0 0 24 24">
+      <path d="M2 10v3" />
+      <path d="M6 6v11" />
+      <path d="M10 3v18" />
+      <path d="M14 8v7" />
+      <path d="M18 5v13" />
+      <path d="M22 10v3" />
+    </symbol><symbol id="audio-waveform" viewBox="0 0 24 24">
+      <path d="M2 13a2 2 0 0 0 2-2V7a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0V4a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0v-4a2 2 0 0 1 2-2" />
+    </symbol><symbol id="circle-pause" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" />
+      <line x1="10" x2="10" y1="15" y2="9" />
+      <line x1="14" x2="14" y1="15" y2="9" />
+    </symbol><symbol id="circle-play" viewBox="0 0 24 24">
+      <path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z" />
+      <circle cx="12" cy="12" r="10" />
+    </symbol><symbol id="vault" viewBox="0 0 24 24">
+      <rect width="18" height="18" x="3" y="3" rx="2" />
+      <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+      <path d="m7.9 7.9 2.7 2.7" />
+      <circle cx="16.5" cy="7.5" r=".5" fill="currentColor" />
+      <path d="m13.4 10.6 2.7-2.7" />
+      <circle cx="7.5" cy="16.5" r=".5" fill="currentColor" />
+      <path d="m7.9 16.1 2.7-2.7" />
+      <circle cx="16.5" cy="16.5" r=".5" fill="currentColor" />
+      <path d="m13.4 13.4 2.7 2.7" />
+      <circle cx="12" cy="12" r="2" />
+    </symbol><symbol id="key" viewBox="0 0 24 24">
+      <path d="m2 21 9.6-9.6" />
+      <path d="m7.5 15.5 2.3 2.3a1 1 0 0 1 0 1.4l-2.1 2.1a1 1 0 0 1-1.4 0L4 19" />
+      <circle cx="15.5" cy="7.5" r="5.5" />
+    </symbol><symbol id="key-round" viewBox="0 0 24 24">
+      <path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" />
+      <circle cx="16.5" cy="7.5" r=".5" fill="currentColor" />
+    </symbol><symbol id="key-square" viewBox="0 0 24 24">
+      <path d="M12.4 2.7a2.5 2.5 0 0 1 3.4 0l5.5 5.5a2.5 2.5 0 0 1 0 3.4l-3.7 3.7a2.5 2.5 0 0 1-3.4 0L8.7 9.8a2.5 2.5 0 0 1 0-3.4z" />
+      <path d="m14 7 3 3" />
+      <path d="m9.4 10.6-6.814 6.814A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814" />
+    </symbol><symbol id="lock" viewBox="0 0 24 24">
+      <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+      <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+    </symbol><symbol id="lock-keyhole" viewBox="0 0 24 24">
+      <circle cx="12" cy="16" r="1" />
+      <rect x="3" y="10" width="18" height="12" rx="2" />
+      <path d="M7 10V7a5 5 0 0 1 10 0v3" />
+    </symbol><symbol id="rotate-ccw-key" viewBox="0 0 24 24">
+      <path d="M12 7v6" />
+      <path d="M12 9h2" />
+      <path d="M3 12a9 9 0 1 0 9-9 9.74 9.74 0 0 0-6.74 2.74L3 8" />
+      <path d="M3 3v5h5" />
+      <circle cx="12" cy="15" r="2" />
+    </symbol><symbol id="paw-print" viewBox="0 0 24 24">
+      <circle cx="11" cy="4" r="2" />
+      <circle cx="18" cy="8" r="2" />
+      <circle cx="20" cy="16" r="2" />
+      <path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z" />
+    </symbol><symbol id="bone" viewBox="0 0 24 24">
+      <path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z" />
+    </symbol><symbol id="cat" viewBox="0 0 24 24">
+      <path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.84 6.42-2.26 1.4.58-.42 7-.42 7 .57 1.07 1 2.24 1 3.44C21 17.9 16.97 21 12 21s-9-3-9-7.56c0-1.25.5-2.4 1-3.44 0 0-1.89-6.42-.5-7 1.39-.58 4.72.23 6.5 2.23A9.04 9.04 0 0 1 12 5Z" />
+      <path d="M8 14v.5" />
+      <path d="M16 14v.5" />
+      <path d="M11.25 16.25h1.5L12 17l-.75-.75Z" />
+    </symbol><symbol id="dog" viewBox="0 0 24 24">
+      <path d="M11.25 16.25h1.5L12 17z" />
+      <path d="M16 14v.5" />
+      <path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309" />
+      <path d="M8 14v.5" />
+      <path d="M8.5 8.5c-.384 1.05-1.083 2.028-2.344 2.5-1.931.722-3.576-.297-3.656-1-.113-.994 1.177-6.53 4-7 1.923-.321 3.651.845 3.651 2.235A7.497 7.497 0 0 1 14 5.277c0-1.39 1.844-2.598 3.767-2.277 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5" />
+    </symbol><symbol id="rabbit" viewBox="0 0 24 24">
+      <path d="M13 16a3 3 0 0 1 2.24 5" />
+      <path d="M18 12h.01" />
+      <path d="M18 21h-8a4 4 0 0 1-4-4 7 7 0 0 1 7-7h.2L9.6 6.4a1 1 0 1 1 2.8-2.8L15.8 7h.2c3.3 0 6 2.7 6 6v1a2 2 0 0 1-2 2h-1a3 3 0 0 0-3 3" />
+      <path d="M20 8.54V4a2 2 0 1 0-4 0v3" />
+      <path d="M7.612 12.524a3 3 0 1 0-1.6 4.3" />
+    </symbol><symbol id="rat" viewBox="0 0 24 24">
+      <path d="M13 22H4a2 2 0 0 1 0-4h12" />
+      <path d="M13.236 18a3 3 0 0 0-2.2-5" />
+      <path d="M16 9h.01" />
+      <path d="M16.82 3.94a3 3 0 1 1 3.237 4.868l1.815 2.587a1.5 1.5 0 0 1-1.5 2.1l-2.872-.453a3 3 0 0 0-3.5 3" />
+      <path d="M17 4.988a3 3 0 1 0-5.2 2.052A7 7 0 0 0 4 14.015 4 4 0 0 0 8 18" />
+    </symbol><symbol id="bone-fracture" viewBox="0 0 24 24">
+      <path d="M14 4.5a1 1 0 0 1 5 0 .5.5 0 0 0 .5.5 1 1 0 0 1 0 5c-.81 0-1.8-.7-2.5 0l-1.958 1.957a.15.15 0 0 1-.252-.072l-.493-2.07a.15.15 0 0 0-.111-.112l-2.072-.494a.15.15 0 0 1-.072-.252L14 7c.7-.7 0-1.69 0-2.5" />
+      <path d="m16 20-1-2" />
+      <path d="m20 16-2-1" />
+      <path d="m4 8 2 1" />
+      <path d="m8 4 1 2" />
+      <path d="M9.698 14.19a.15.15 0 0 0 .112.112l2.074.489a.15.15 0 0 1 .072.252L10 17c-.7.7 0 1.69 0 2.5a1 1 0 0 1-5 0 .495.495 0 0 0-.5-.5 1 1 0 0 1 0-5c.81 0 1.8.7 2.5 0l1.956-1.957a.15.15 0 0 1 .252.072z" />
+    </symbol><symbol id="bike" viewBox="0 0 24 24">
+      <circle cx="18.5" cy="17.5" r="3.5" />
+      <circle cx="5.5" cy="17.5" r="3.5" />
+      <circle cx="15" cy="5" r="1" />
+      <path d="M12 17.5V14l-3-3 4-3 2 3h2" />
+    </symbol><symbol id="route" viewBox="0 0 24 24">
+      <circle cx="6" cy="19" r="3" />
+      <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" />
+      <circle cx="18" cy="5" r="3" />
+    </symbol><symbol id="router" viewBox="0 0 24 24">
+      <rect width="20" height="8" x="2" y="14" rx="2" />
+      <path d="M6.01 18H6" />
+      <path d="M10.01 18H10" />
+      <path d="M15 10v4" />
+      <path d="M17.84 7.17a4 4 0 0 0-5.66 0" />
+      <path d="M20.66 4.34a8 8 0 0 0-11.31 0" />
+    </symbol><symbol id="road" viewBox="0 0 24 24">
+      <path d="M12 17v4" />
+      <path d="M12 5V3" />
+      <path d="M12 9v3" />
+      <path d="M2.077 18.449A2 2 0 0 0 4 21h16a2 2 0 0 0 1.924-2.55l-4-14A2 2 0 0 0 16 3H8a2 2 0 0 0-1.924 1.45z" />
+    </symbol><symbol id="signpost" viewBox="0 0 24 24">
+      <path d="M12 13v8" />
+      <path d="M12 3v3" />
+      <path d="M2.354 10.354a1.207 1.207 0 0 1 0-1.708l2.06-2.06A2 2 0 0 1 5.828 6h12.344a2 2 0 0 1 1.414.586l2.06 2.06a1.207 1.207 0 0 1 0 1.708l-2.06 2.06a2 2 0 0 1-1.414.586H5.828a2 2 0 0 1-1.414-.586z" />
+    </symbol><symbol id="bridge" viewBox="0 0 24 24">
+      <path d="M10 9.728V16" />
+      <path d="M14 9.728V16" />
+      <path d="M18 20V4" />
+      <path d="m22 11-4-4A7.5 7.5 0 0 1 6 7l-4 4" />
+      <path d="M22 16H2" />
+      <path d="M6 20V4" />
+    </symbol><symbol id="corner-left-down" viewBox="0 0 24 24">
+      <path d="m14 15-5 5-5-5" />
+      <path d="M20 4h-7a4 4 0 0 0-4 4v12" />
+    </symbol><symbol id="inbox" viewBox="0 0 24 24">
+      <polyline points="22 12 16 12 14 15 10 15 8 12 2 12" />
+      <path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
+    </symbol><symbol id="tally-3" viewBox="0 0 24 24">
+      <path d="M4 4v16" />
+      <path d="M9 4v16" />
+      <path d="M14 4v16" />
+    </symbol><symbol id="cloud-alert" viewBox="0 0 24 24">
+      <path d="M12 12v4" />
+      <path d="M12 20h.01" />
+      <path d="M8.128 16.949A7 7 0 1 1 15.71 8h1.79a1 1 0 0 1 0 9h-1.642" />
+    </symbol><symbol id="globe-off" viewBox="0 0 24 24">
+      <path d="M10.114 4.462A14.5 14.5 0 0 1 12 2a10 10 0 0 1 9.313 13.643" />
+      <path d="M15.557 15.556A14.5 14.5 0 0 1 12 22 10 10 0 0 1 4.929 4.929" />
+      <path d="M15.892 10.234A14.5 14.5 0 0 0 12 2a10 10 0 0 0-3.643.687" />
+      <path d="M17.656 12H22" />
+      <path d="M19.071 19.071A10 10 0 0 1 12 22 14.5 14.5 0 0 1 8.44 8.45" />
+      <path d="M2 12h10" />
+      <path d="m2 2 20 20" />
+    </symbol><symbol id="lightbulb-off" viewBox="0 0 24 24">
+      <path d="M16.8 11.2c.8-.9 1.2-2 1.2-3.2a6 6 0 0 0-9.3-5" />
+      <path d="m2 2 20 20" />
+      <path d="M6.3 6.3a4.67 4.67 0 0 0 1.2 5.2c.7.7 1.3 1.5 1.5 2.5" />
+      <path d="M9 18h6" />
+      <path d="M10 22h4" />
+    </symbol><symbol id="octagon-alert" viewBox="0 0 24 24">
+      <path d="M12 16h.01" />
+      <path d="M12 8v4" />
+      <path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z" />
+    </symbol></defs>
+<rect width="880" height="766" rx="18" fill="#faf9fd"/>
+<text x="24" y="40" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#251f33">Sprite name → Lucide icon</text>
+    <text x="856" y="40" text-anchor="end" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#6f6782">top pick, then the next six · ranked in the browser, no model</text><g>
+      <rect x="24" y="70" width="832" height="72" rx="14" fill="#ffffff" stroke="#e6e2ef"/>
+      <text x="48" y="103" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="600" fill="#251f33">help</text>
+      <text x="48" y="124" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6782">via “help”</text>
+      <text x="262" y="111" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6782">→</text>
+      <g opacity="1">
+    <rect x="296" y="82" width="52" height="49" rx="15.6" fill="#0f8a6c" opacity="0.55"/>
+    <rect x="296" y="79" width="52" height="49" rx="15.6" fill="#0f8a6c" stroke="#0f8a6c" stroke-width="1"/>
+    <use href="#hand-helping" x="309" y="90.5" width="26" height="26"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+      <text x="358" y="111" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#251f33">hand-helping</text>
+      <g opacity="1">
+    <rect x="540" y="90" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="540" y="87" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#life-buoy" x="549.5" y="95" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.9">
+    <rect x="592" y="90" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="592" y="87" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#badge-question-mark" x="601.5" y="95" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.8">
+    <rect x="644" y="90" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="644" y="87" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#badge-info" x="653.5" y="95" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.7">
+    <rect x="696" y="90" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="696" y="87" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#circle-question-mark" x="705.5" y="95" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.6">
+    <rect x="748" y="90" width="38" height="35" rx="11.4" fill="#0f8a6c" opacity="0.55"/>
+    <rect x="748" y="87" width="38" height="35" rx="11.4" fill="#0f8a6c" stroke="#0f8a6c" stroke-width="1"/>
+    <use href="#file-question-mark" x="757.5" y="95" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.5">
+    <rect x="800" y="90" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="800" y="87" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#heart-handshake" x="809.5" y="95" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+    </g><g>
+      <rect x="24" y="154" width="832" height="72" rx="14" fill="#ffffff" stroke="#e6e2ef"/>
+      <text x="48" y="187" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="600" fill="#251f33">plant-diary</text>
+      <text x="48" y="208" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6782">via “diary”</text>
+      <text x="262" y="195" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6782">→</text>
+      <g opacity="1">
+    <rect x="296" y="166" width="52" height="49" rx="15.6" fill="#2b78d8" opacity="0.55"/>
+    <rect x="296" y="163" width="52" height="49" rx="15.6" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#notebook-pen" x="309" y="174.5" width="26" height="26"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+      <text x="358" y="195" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#251f33">notebook-pen</text>
+      <g opacity="1">
+    <rect x="540" y="174" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="540" y="171" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#plant-pot" x="549.5" y="179" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.9">
+    <rect x="592" y="174" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="592" y="171" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#sprout" x="601.5" y="179" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.8">
+    <rect x="644" y="174" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="644" y="171" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#flower" x="653.5" y="179" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.7">
+    <rect x="696" y="174" width="38" height="35" rx="11.4" fill="#d6338a" opacity="0.55"/>
+    <rect x="696" y="171" width="38" height="35" rx="11.4" fill="#d6338a" stroke="#d6338a" stroke-width="1"/>
+    <use href="#flower-2" x="705.5" y="179" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.6">
+    <rect x="748" y="174" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="748" y="171" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#leaf" x="757.5" y="179" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.5">
+    <rect x="800" y="174" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="800" y="171" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#rose" x="809.5" y="179" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+    </g><g>
+      <rect x="24" y="238" width="832" height="72" rx="14" fill="#ffffff" stroke="#e6e2ef"/>
+      <text x="48" y="271" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="600" fill="#251f33">expense-splitter</text>
+      <text x="48" y="292" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6782">via “split”</text>
+      <text x="262" y="279" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6782">→</text>
+      <g opacity="1">
+    <rect x="296" y="250" width="52" height="49" rx="15.6" fill="#d99a1e" opacity="0.55"/>
+    <rect x="296" y="247" width="52" height="49" rx="15.6" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#split" x="309" y="258.5" width="26" height="26"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+      <text x="358" y="279" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#251f33">split</text>
+      <g opacity="1">
+    <rect x="540" y="258" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="540" y="255" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#banknote-arrow-down" x="549.5" y="263" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.9">
+    <rect x="592" y="258" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="592" y="255" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#circle-divide" x="601.5" y="263" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.8">
+    <rect x="644" y="258" width="38" height="35" rx="11.4" fill="#d6338a" opacity="0.55"/>
+    <rect x="644" y="255" width="38" height="35" rx="11.4" fill="#d6338a" stroke="#d6338a" stroke-width="1"/>
+    <use href="#receipt" x="653.5" y="263" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.7">
+    <rect x="696" y="258" width="38" height="35" rx="11.4" fill="#d6338a" opacity="0.55"/>
+    <rect x="696" y="255" width="38" height="35" rx="11.4" fill="#d6338a" stroke="#d6338a" stroke-width="1"/>
+    <use href="#columns-2" x="705.5" y="263" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.6">
+    <rect x="748" y="258" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="748" y="255" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#rows-2" x="757.5" y="263" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.5">
+    <rect x="800" y="258" width="38" height="35" rx="11.4" fill="#0f8a6c" opacity="0.55"/>
+    <rect x="800" y="255" width="38" height="35" rx="11.4" fill="#0f8a6c" stroke="#0f8a6c" stroke-width="1"/>
+    <use href="#square-split-horizontal" x="809.5" y="263" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+    </g><g>
+      <rect x="24" y="322" width="832" height="72" rx="14" fill="#ffffff" stroke="#e6e2ef"/>
+      <text x="48" y="355" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="600" fill="#251f33">podcast-studio</text>
+      <text x="48" y="376" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6782">via “podcast”</text>
+      <text x="262" y="363" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6782">→</text>
+      <g opacity="1">
+    <rect x="296" y="334" width="52" height="49" rx="15.6" fill="#0f8a6c" opacity="0.55"/>
+    <rect x="296" y="331" width="52" height="49" rx="15.6" fill="#0f8a6c" stroke="#0f8a6c" stroke-width="1"/>
+    <use href="#mic-signal" x="309" y="342.5" width="26" height="26"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+      <text x="358" y="363" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#251f33">mic-signal</text>
+      <g opacity="1">
+    <rect x="540" y="342" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="540" y="339" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#mic-vocal" x="549.5" y="347" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.9">
+    <rect x="592" y="342" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="592" y="339" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#mic" x="601.5" y="347" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.8">
+    <rect x="644" y="342" width="38" height="35" rx="11.4" fill="#0f8a6c" opacity="0.55"/>
+    <rect x="644" y="339" width="38" height="35" rx="11.4" fill="#0f8a6c" stroke="#0f8a6c" stroke-width="1"/>
+    <use href="#audio-lines" x="653.5" y="347" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.7">
+    <rect x="696" y="342" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="696" y="339" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#audio-waveform" x="705.5" y="347" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.6">
+    <rect x="748" y="342" width="38" height="35" rx="11.4" fill="#0f8a6c" opacity="0.55"/>
+    <rect x="748" y="339" width="38" height="35" rx="11.4" fill="#0f8a6c" stroke="#0f8a6c" stroke-width="1"/>
+    <use href="#circle-pause" x="757.5" y="347" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.5">
+    <rect x="800" y="342" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="800" y="339" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#circle-play" x="809.5" y="347" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+    </g><g>
+      <rect x="24" y="406" width="832" height="72" rx="14" fill="#ffffff" stroke="#e6e2ef"/>
+      <text x="48" y="439" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="600" fill="#251f33">password-vault</text>
+      <text x="48" y="460" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6782">via “vault”</text>
+      <text x="262" y="447" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6782">→</text>
+      <g opacity="1">
+    <rect x="296" y="418" width="52" height="49" rx="15.6" fill="#d99a1e" opacity="0.55"/>
+    <rect x="296" y="415" width="52" height="49" rx="15.6" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#vault" x="309" y="426.5" width="26" height="26"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+      <text x="358" y="447" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#251f33">vault</text>
+      <g opacity="1">
+    <rect x="540" y="426" width="38" height="35" rx="11.4" fill="#d6338a" opacity="0.55"/>
+    <rect x="540" y="423" width="38" height="35" rx="11.4" fill="#d6338a" stroke="#d6338a" stroke-width="1"/>
+    <use href="#key" x="549.5" y="431" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.9">
+    <rect x="592" y="426" width="38" height="35" rx="11.4" fill="#0f8a6c" opacity="0.55"/>
+    <rect x="592" y="423" width="38" height="35" rx="11.4" fill="#0f8a6c" stroke="#0f8a6c" stroke-width="1"/>
+    <use href="#key-round" x="601.5" y="431" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.8">
+    <rect x="644" y="426" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="644" y="423" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#key-square" x="653.5" y="431" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.7">
+    <rect x="696" y="426" width="38" height="35" rx="11.4" fill="#0f8a6c" opacity="0.55"/>
+    <rect x="696" y="423" width="38" height="35" rx="11.4" fill="#0f8a6c" stroke="#0f8a6c" stroke-width="1"/>
+    <use href="#lock" x="705.5" y="431" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.6">
+    <rect x="748" y="426" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="748" y="423" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#lock-keyhole" x="757.5" y="431" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.5">
+    <rect x="800" y="426" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="800" y="423" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#rotate-ccw-key" x="809.5" y="431" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+    </g><g>
+      <rect x="24" y="490" width="832" height="72" rx="14" fill="#ffffff" stroke="#e6e2ef"/>
+      <text x="48" y="523" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="600" fill="#251f33">pet-vet</text>
+      <text x="48" y="544" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6782">via “pets”</text>
+      <text x="262" y="531" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6782">→</text>
+      <g opacity="1">
+    <rect x="296" y="502" width="52" height="49" rx="15.6" fill="#2b78d8" opacity="0.55"/>
+    <rect x="296" y="499" width="52" height="49" rx="15.6" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#paw-print" x="309" y="510.5" width="26" height="26"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+      <text x="358" y="531" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#251f33">paw-print</text>
+      <g opacity="1">
+    <rect x="540" y="510" width="38" height="35" rx="11.4" fill="#0f8a6c" opacity="0.55"/>
+    <rect x="540" y="507" width="38" height="35" rx="11.4" fill="#0f8a6c" stroke="#0f8a6c" stroke-width="1"/>
+    <use href="#bone" x="549.5" y="515" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.9">
+    <rect x="592" y="510" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="592" y="507" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#cat" x="601.5" y="515" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.8">
+    <rect x="644" y="510" width="38" height="35" rx="11.4" fill="#d6338a" opacity="0.55"/>
+    <rect x="644" y="507" width="38" height="35" rx="11.4" fill="#d6338a" stroke="#d6338a" stroke-width="1"/>
+    <use href="#dog" x="653.5" y="515" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.7">
+    <rect x="696" y="510" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="696" y="507" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#rabbit" x="705.5" y="515" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.6">
+    <rect x="748" y="510" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="748" y="507" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#rat" x="757.5" y="515" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.5">
+    <rect x="800" y="510" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="800" y="507" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#bone-fracture" x="809.5" y="515" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+    </g><g>
+      <rect x="24" y="574" width="832" height="72" rx="14" fill="#ffffff" stroke="#e6e2ef"/>
+      <text x="48" y="607" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="600" fill="#251f33">bike-routes</text>
+      <text x="48" y="628" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6782">via “bike”</text>
+      <text x="262" y="615" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6782">→</text>
+      <g opacity="1">
+    <rect x="296" y="586" width="52" height="49" rx="15.6" fill="#d99a1e" opacity="0.55"/>
+    <rect x="296" y="583" width="52" height="49" rx="15.6" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#bike" x="309" y="594.5" width="26" height="26"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+      <text x="358" y="615" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#251f33">bike</text>
+      <g opacity="1">
+    <rect x="540" y="594" width="38" height="35" rx="11.4" fill="#d6338a" opacity="0.55"/>
+    <rect x="540" y="591" width="38" height="35" rx="11.4" fill="#d6338a" stroke="#d6338a" stroke-width="1"/>
+    <use href="#route" x="549.5" y="599" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.9">
+    <rect x="592" y="594" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="592" y="591" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#router" x="601.5" y="599" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.8">
+    <rect x="644" y="594" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="644" y="591" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#road" x="653.5" y="599" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.7">
+    <rect x="696" y="594" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="696" y="591" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#signpost" x="705.5" y="599" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.6">
+    <rect x="748" y="594" width="38" height="35" rx="11.4" fill="#d6338a" opacity="0.55"/>
+    <rect x="748" y="591" width="38" height="35" rx="11.4" fill="#d6338a" stroke="#d6338a" stroke-width="1"/>
+    <use href="#bridge" x="757.5" y="599" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.5">
+    <rect x="800" y="594" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="800" y="591" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#corner-left-down" x="809.5" y="599" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+    </g><g>
+      <rect x="24" y="658" width="832" height="72" rx="14" fill="#ffffff" stroke="#e6e2ef"/>
+      <text x="48" y="691" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="600" fill="#251f33">triage</text>
+      <text x="48" y="712" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6782">via “triage”</text>
+      <text x="262" y="699" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6f6782">→</text>
+      <g opacity="1">
+    <rect x="296" y="670" width="52" height="49" rx="15.6" fill="#d6338a" opacity="0.55"/>
+    <rect x="296" y="667" width="52" height="49" rx="15.6" fill="#d6338a" stroke="#d6338a" stroke-width="1"/>
+    <use href="#inbox" x="309" y="678.5" width="26" height="26"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+      <text x="358" y="699" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#251f33">inbox</text>
+      <g opacity="1">
+    <rect x="540" y="678" width="38" height="35" rx="11.4" fill="#2b78d8" opacity="0.55"/>
+    <rect x="540" y="675" width="38" height="35" rx="11.4" fill="#2b78d8" stroke="#2b78d8" stroke-width="1"/>
+    <use href="#tally-3" x="549.5" y="683" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.9">
+    <rect x="592" y="678" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="592" y="675" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#bike" x="601.5" y="683" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.8">
+    <rect x="644" y="678" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="644" y="675" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#cloud-alert" x="653.5" y="683" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.7">
+    <rect x="696" y="678" width="38" height="35" rx="11.4" fill="#d99a1e" opacity="0.55"/>
+    <rect x="696" y="675" width="38" height="35" rx="11.4" fill="#d99a1e" stroke="#d99a1e" stroke-width="1"/>
+    <use href="#globe-off" x="705.5" y="683" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.6">
+    <rect x="748" y="678" width="38" height="35" rx="11.4" fill="#7c3aed" opacity="0.55"/>
+    <rect x="748" y="675" width="38" height="35" rx="11.4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+    <use href="#lightbulb-off" x="757.5" y="683" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g><g opacity="0.5">
+    <rect x="800" y="678" width="38" height="35" rx="11.4" fill="#d6338a" opacity="0.55"/>
+    <rect x="800" y="675" width="38" height="35" rx="11.4" fill="#d6338a" stroke="#d6338a" stroke-width="1"/>
+    <use href="#octagon-alert" x="809.5" y="683" width="19" height="19"
+      fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+    </g>
+</svg>

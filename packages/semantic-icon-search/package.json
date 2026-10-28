@@ -1,0 +1,14 @@
+{
+  "name": "semantic-icon-search",
+  "version": "0.1.0",
+  "description": "Rank icons by meaning for a name, in the browser, with no model at runtime",
+  "type": "module",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" }
+  },
+  "files": ["src"],
+  "sideEffects": false,
+  "scripts": { "test": "node --test" },
+  "keywords": ["icons", "semantic search", "icon search", "icon suggestion", "embeddings", "model2vec", "offline"],
+  "license": "MIT"
+}

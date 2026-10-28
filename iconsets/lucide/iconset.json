@@ -1,0 +1,9 @@
+{
+  "name": "lucide",
+  "version": "1.63.0",
+  "package": "semantic-icon-search-lucide",
+  "tags": { "url": "https://cdn.jsdelivr.net/npm/lucide-static@{version}/tags.json" },
+  "usageTags": "usage-tags.json",
+  "index": { "linksPerPiece": 6, "linkMin": 45, "bestMin": 30, "wholeWords": true },
+  "rank": { "nameWeight": 0.5, "secondTagWeight": 0.5 }
+}
