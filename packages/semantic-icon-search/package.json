@@ -4,11 +4,37 @@
   "description": "Rank icons by meaning for a name, in the browser, with no model at runtime",
   "type": "module",
   "exports": {
-    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" }
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "sideEffects": false,
-  "scripts": { "test": "node --test" },
-  "keywords": ["icons", "semantic search", "icon search", "icon suggestion", "embeddings", "model2vec", "offline"],
-  "license": "MIT"
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "icons",
+    "semantic search",
+    "icon search",
+    "icon suggestion",
+    "embeddings",
+    "model2vec",
+    "offline"
+  ],
+  "license": "MIT",
+  "author": "Mike Anderson",
+  "homepage": "https://github.com/mike-anderson/semantic-icon-search#readme",
+  "bugs": "https://github.com/mike-anderson/semantic-icon-search/issues",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-anderson/semantic-icon-search.git",
+    "directory": "packages/semantic-icon-search"
+  }
 }
